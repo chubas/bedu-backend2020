@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const app = express()
 const port = process.env.PORT || 3000
 
-const Pet = require('./src/models/pets')
+const Pets = require('./src/models/pets')
 
 app.listen(port)
 
